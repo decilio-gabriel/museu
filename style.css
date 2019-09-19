@@ -1,0 +1,217 @@
+/* ------------------ESTRUTURA DO SITE ------------------------------ */
+body {
+  background: #f4f2ec url(img/fundo.png) repeat-x;
+  font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/* ----------------------------------- HEADER ------------------------------ */
+header {
+  padding: 15px 0;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo h1 {
+  background-image: url(img/logo.png);
+  height: 21px;
+  text-indent: -9999px;
+  width: 248px;
+}
+
+/* ----------------------------------- NAV -------------------------- */
+header nav ul {
+  list-style: none;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul :link,
+:active,
+:visited {
+  color: #af670a;
+  text-decoration: none;
+}
+
+header nav ul :hover {
+  color: #227115;
+}
+
+header nav ul li a {
+  margin-right: 25px;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+
+header nav li a:hover {
+  border-bottom: 1px solid #535858;
+}
+
+/* --------------------- PRINCIPAL ----------------------- */
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo .texto {
+  width: 710px;
+}
+
+.conteudo .texto .capa {
+}
+
+.conteudo .texto h3 {
+  color: #227115;
+  margin-bottom: 15px;
+}
+
+.map-video {
+  display: flex;
+  width: 710px;
+}
+
+.map-video .map {
+  margin-left: 87px;
+}
+
+section.sobre-o-museu {
+  display: flex;
+}
+
+section.sobre-o-museu .exposicoes {
+  width: 400px;
+}
+
+section.sobre-o-museu .exposicoes ul li a {
+  text-decoration: none;
+}
+
+section.sobre-o-museu .exposicoes ul li a:hover {
+  color: #227115;
+}
+
+section.sobre-o-museu .historia {
+  width: 310px;
+}
+
+section.sobre-o-museu .historia .text-historia {
+  margin-bottom: 10px;
+}
+
+section.sobre-o-museu .text-more {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+section.sobre-o-museu .text-more:hover {
+  color: #227115;
+}
+
+/* ---------------------- ASIDE --------------------------- */
+.conteudo aside {
+  width: 350px;
+  background: #ebe7dd;
+}
+
+section.visita {
+  background: #cdc8b1;
+  padding: 10px 27px 27px 27px;
+  margin-top: 10px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.galeria .photos {
+  background: url(img/fundo-foto.png) no-repeat;
+  display: flex;
+  padding: 15px 15px 22px 15px;
+  margin: 10px 0 0 30px;
+}
+
+.galeria .photos img {
+  height: 93px;
+  width: 93px;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+section.visita h4 {
+  color: #86521a;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+/* -------------------------- FORMULARIO -------------------------- */
+input {
+  height: 20px;
+  background-color: #fff;
+  border: none;
+  font-size: 1em;
+}
+
+input.campo {
+  border: 1px solid #ada484;
+}
+
+input.qtd {
+  width: 30px;
+}
+
+input.botao {
+  background: #9b9271;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+input.botao:hover {
+  background-color: #9b9271bd;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  display: none;
+}
+
+section.gal h4 {
+  color: #86521a;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+  padding-left: 25px;
+}
+
+/* ----------------------------------- RODAPÉ --------------------------------- */
+
+footer {
+  padding: 20px 0 30px 0;
+  text-align: center;
+  background: url(img/fundo-rodape.png) no-repeat center top;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer p a.foot {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer p a {
+  text-decoration: none;
+}
